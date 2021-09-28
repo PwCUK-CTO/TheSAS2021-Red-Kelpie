@@ -67,7 +67,6 @@ rule APT41_ChaChaLoader : Red_Kelpie {
 		modified_date = "2021-05-18"
 		revision = "0"
 		hash = "d9d269a199ca0841fc71fef045c3dc5701a5042bea46d05a657b6db43fe55acc"
-		report_id = "CTO-TIB-20210624-02A"
 
 	strings:
 		// EtwEventWrite + system
@@ -92,7 +91,7 @@ rule APT41_Batch_Script_CobaltStrike_Loader : Red_Kelpie {
 		license = "Apache License, Version 2.0"
 		created_date = "2021-05-21"
 		modified_date = "2021-05-21"
-		rule_id = "0-YA-175-0012"
+		revision = "0"
 		reference = "https://www.fireeye.com/blog/threat-research/2020/03/apt41-initiates-global-intrusion-campaign-using-multiple-exploits.html"
 		hash = "62d9e8f6e8ade53c6756f66beaaf4b9d93da6d390bf6f3ae1340389178a2fa29"
 		hash = "49e338c5ae9489556ae8f120a74960f3383381c91b8f03061ee588f6ad97e74c"
