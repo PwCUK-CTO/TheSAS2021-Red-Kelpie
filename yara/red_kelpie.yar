@@ -210,7 +210,7 @@ rule APT41_Time_Bound_Guardrail : Red_Kelpie
 		revision = "0"
 		hash = "45d175f3c1cb6067f60ea90661524124102f872830a78968f46187d6bc28f70d"
 		hash = "5347c5bbfaec8877c3b909ff80cda82f505c3ef6384a9ecf040c821fc7829736"
-		hash = "2738449fd0d0a68dfb412646ca52b59c293f52a9af00acf3db85077d71534b66"
+		hash = "bfe2673b02c54be9093cff8fd564b630109175c608f07d94e4a2ac65028a6eae"
 
 	strings:
 		// 0FB7442430      MOVZX EAX,WORD PTR [RSP+30]
